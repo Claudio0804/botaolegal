@@ -1,0 +1,46 @@
+body {
+    background-color: #ff0000;
+    margin: 0;
+    padding: 0;
+  }
+
+  #container_fodase {
+    position: relative;
+    width: 80%;
+    height: 60vh;
+    border: 1px solid #ff0000;
+    overflow: hidden;
+    margin: 10vh auto;
+  }
+
+  #meuBotaoFodase {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  h1.fodase {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 5vw;
+    color: white;
+  }
+  #SIM{
+        position: absolute;
+        top: 58.5%;
+        left: 40%;
+        padding: 10px 20px;
+        background-color: #000000;
+        color: white;
+        border: none;
+      }
+  #CU{
+    text-decoration: none;
+    color: white;
+  }
